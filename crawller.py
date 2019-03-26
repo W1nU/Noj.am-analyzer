@@ -15,6 +15,3 @@ class Crawller:
         
         return problems
     
-
-cr = Crawller()
-cr.get_info_from_id('wjdtmddn98')

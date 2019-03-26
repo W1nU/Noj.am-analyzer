@@ -1,7 +1,8 @@
 import os
 import pandas 
+import csv 
 
-class user:
+class User:
     def __init__(self):
         if 'user.csv' not in os.listdir('./'):
             with open('user.csv', 'w') as f:
